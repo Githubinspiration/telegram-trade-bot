@@ -1,5 +1,6 @@
 {
 	"lang" : "English",
+	"cha" : "chinese",
 	"error.32700":"Invalid JSON was received by the server. An error occurred on the server while parsing the JSON text.",
 	"error.32600":	"The JSON sent is not a valid Request object.",
 	"error.32601":	"The method does not exist / is not available.",
