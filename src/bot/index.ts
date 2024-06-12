@@ -311,10 +311,10 @@ const showPost = async (_id: number, chat_id:number, message_id:number)=>{
 			// lists.push(`价格: US$ ${row.price}`)
 			
 			const cmds = [ { text: "购买", callback_data: `default()`} ] as Array<{ text:string, url?:string, callback_data?:string }>
-			if (files.length!==0) {
-				const i = files[0]
-				cmds.push({ text: "查看图片", callback_data: `image(${ i.id })` })
-			}
+			// if (files.length!==0) {
+			// 	const i = files[0]
+			// 	cmds.push({ text: "查看图片", callback_data: `image(${ i.id })` })
+			// }
 
 			let json = {
 				chat_id,
